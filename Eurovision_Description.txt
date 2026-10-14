@@ -1,0 +1,129 @@
+Data provided
+
+Historical data for 'Finals' is provided from 1998, when mass televoting was first implemented. 
+Historical data for 'Semi-finals' is provided from 2004, when semi-finals were introduced.  Please note that from 2004 to 2007 there was one semi-final; from 2008 onwards there have been two semi-finals.
+
+The dataset incorporates 3 sheets.  These are provided in a single Microsoft Excel file, or alternatively the identical sheets are available in a different format as 3 separate csv files.
+
+The 3 sheets are as follows:
+1)  'Final data by year'
+2)  'Semi-final data by year'
+3)  '2010 Data'
+
+Final data by year
+
+The data in this sheet can be used to calibrate your model.
+
+Column A - Year of competition, from 1998 - 2009
+Column B - Competitor country
+Column C - Region of competitor country (nb: please see 'Region Classifications' below)
+Column D - Language of song entered by competitor country
+Column E - Name of performing artist
+Column F - Name of song
+Column G - Name of song, English translation
+Column H - Gender of artist (nb: this is designated as "male" or "female" or "both" if a mixed-gender group)
+Column I - Group or solo performer
+Column J - Place achieved in final (nb: the # of competitors and thus places has changed on a yearly basis)
+Column K - Total points received by competing country, an aggregate of votes
+Column L - Host country
+Column M - Region of host country (nb: please see 'Region Classifications' below)
+Column N - Whether the Contest was held in the competitor's own country ("Home") or another country ("Away")
+Column O - Whether the Contest was held in the competitor's own region ("Home") or another region ("Away")
+Column P - Approximate betting prices (nb: please see 'Approximate Betting Prices data' below)
+Columns Q-BK - Voting countries and their allocation of scores to competitor countries listed in Column A (nb: these columns contain the list of all countries which have competed in the Eurovision Song Contest Final from 1998-2009, however not every country voted/entered the Contest every year)
+
+Semi-final data by year
+
+
+The data in this sheet can also be used to calibrate your model.
+
+Column A - Year of competition, from 2004 - 2009, and designation as "SF1" (semi-final 1) or "SF2" (semi-final 2).  (nb: for years 2004-2007, there was only one semi-final per year, and these have been designated as "SF1")
+Column B - Competitor country
+Column C - Region of competitor country (nb: please see 'Region Classifications' below)
+Column D - Language of song entered by competitor country
+Column E - Name of performing artist
+Column F - Name of song
+Column G - Name of song, English translation
+Column H - Place achieved in final (nb: the # of competitors and thus places has changed on a yearly basis)
+Column I - Total points received by competing country, an aggregate of votes
+Column J - Host country
+Column K - Region of host country (nb: please see 'Region Classifications' below)
+Column L - Whether the Contest was held in the competitor's own country ("Home") or another country ("Away")
+Column M - Whether the Contest was held in the competitor's own region ("Home") or another region ("Away")
+Column N - Approximate betting prices (nb: please see 'Approximate Betting Prices data' below)
+Columns O-BI - Voting countries and their allocation of scores to competitor countries listed in Column A (nb: these columns contain the list of all countries which have competed in the Eurovision Song Contest semi-finals from 2004-2009, however not every country voted/entered the Contest every year)
+
+2010 Data
+
+The data in this sheet can be used to generate your entry. 
+
+Column A - Year of competition, ie: 2010
+Column B - Competitor country (nb: this contains list of all 2010 Contest contestants, of which only 25 will compete in the final.  Germany, United Kingdom, Spain, France and Norway will definitely compete in the Final)
+Column C - Region of competitor country (nb: please see 'Region Classifications' below)
+Column D - Language of song entered by competitor country
+Column E - Name of performing artist
+Column F - Name of song
+Column G - Name of song, English translation
+Column H - Gender of artist (nb: this is designated as "male" or "female" or "both" if a mixed-gender group)
+Column I - Group or solo performer
+Column J - Place achieved in final
+Column K - Total points received by competing country, an aggregate of votes
+Column L - Host country
+Column M - Region of host country (nb: please see 'Region Classifications' below)
+Column N - Whether the Contest is being held in the competitor's own country ("Home") or another country ("Away") (nb: this will read "Home" for Norway and "Away" for every other country)
+Column O - Whether the Contest is being held in the competitor's own region ("Home") or another region ("Away") (nb: this will read "Home" for Scandinavian countries and "Away" for all other countries)
+Column P - Approximate betting prices (nb: please see 'Approximate Betting Prices data' below)
+
+This year's participants
+
+39 countries have confirmed their participation in this year's Eurovision Song Contest. 
+Semi-final 1 - Moldova, Russia, Estonia, Slovakia, Finland, Latvia, Serbia, Bosnia and Herzegovina, Poland, Belgium, Malta, Albania, Greece, Portugal, Macedonia, Belarus, Iceland
+Semi-final 2 - Lithuania, Armenia, Israel, Denmark, Switzerland, Sweden, Azerbaijan, Ukraine, Netherlands, Romania, Slovenia, Ireland, Bulgaria, Cyprus, Croatia, Georgia, Turkey
+Straight to final - Spain, Norway, United Kingdom, France, Germany
+
+Voting procedure in semi-finals
+
+Semi-finals were introduced in 2004.  There was one semi-final every year from 2004-2007, and two semi-finals per year for 2008 onwards (including this year).  
+
+As explained in the 'Background' sheet, a 'positional voting' system is used, whereby each voting country must allocate scores of 1, 2, 3, 4, 5, 6, 7, 8, 10, and 12 to competitor countries.  Only the countries competing in that semi-final vote, the exception being the 5 countries which automatically qualify for the final.  In 2008, Germany and Spain voted in semi-final 1; France, United Kingdom and Serbia voted in semi-final 2.  In 2009, Germany and United Kingdom voted in semi-final 1; France, Spain and Russia voted in semi-final 2.  This year, France, Germany and Spain will vote in semi-final 1; Norway and United Kingdom will vote in semi-final 2.
+
+Voting procedure for 2004-2007 - the top 10 from the previous year's final and this year's semi-final would qualify for this year's final.  (eg: in 2004, the final contestants were the top 10 from 2004's semi-final plus the top 10 from 2003's final.)
+Voting procedure for 2008-2009 - the top 9 from each semi-final, as determined by televote, would proceed to the final.  Additionally, the top country in each semi-final as voted by the back-up juries, but which was not in the top 9 televotes, would also proceed to the final.  In total, this meant 9 televotes + 1 jury wild-card per semi-final, ie: 20 final contestants.
+Voting procedure for 2010 - replacing the system from the previous 2 years, the top 10 from each semi-final, determined by 50% jury vote and 50% televote, will proceed to the final.
+
+Voting procedure in the final
+
+As explained in the 'Background' sheet, a 'positional voting' system is used, whereby each voting country must allocate scores of 1, 2, 3, 4, 5, 6, 7, 8, 10, and 12 to competitor countries.  All countries involved in the Contest, whether knocked out after the semi-finals or competing in the final, must vote.  Thus, in this year's final, there will be 25 competing countries, and 39 voting countries.
+
+Region classifications
+
+We have classified the countries by region as follows:
+
+Scandinavia - Denmark, Finland, Iceland, Norway, Sweden
+Western Europe - Andorra, Austria, Belgium, France, Germany, Greece, Italy, Luxembourg, Malta, Monaco, Netherlands, Portugal, San Marino, Spain, Switzerland
+Independent - Cyprus, Ireland, Israel, Turkey, United Kingdom
+Former Socialist Bloc - Albania, Armenia, Azerbaijan, Belarus, Bulgaria, Czech Republic, Estonia, Georgia, Hungary, Latvia, Lithuania, Moldova, Poland, Romania, Russia, Slovakia, Ukraine
+Former Yugoslavia - Bosnia and Herzegovina, Croatia, Kosovo, Macedonia, Montenegro / Serbia and Montenegro / Serbia, Slovenia
+
+Approximate Betting Prices data
+
+You will notice that Column P 'Approximate Betting Prices' in the '2010 Data' sheet has been filled however this data is obviously constantly changing.  For the most up-to-date price data, we suggest using the following website:
+http://www.oddschecker.com/specials/tv/eurovision/win-market
+
+The historical 'Approximate Betting Prices' data (Column P and Column N in the 'Final data by year' and 'Semi-final data by year' sheets respectively) is provided by Betfair, and is an average over time of betting prices for each competitor country from one particular betting website, Betfair Pty Ltd.  In contrast, the above link for oddschecker.com provides spot data which averages betting prices for each competitor country across a range of betting websites.  
+
+The 'Approximate Betting Prices' data for semi-finals is the same as for finals.
+
+Anomalies by year including exceptions to televoting rule
+
+1998 - Hungary, Ireland, Romania and Turkey used back-up jury vote
+1999 - Lithuania, Turkey, Ireland, and Bosnia and Herzegovina used back-up jury vote
+2000 - Netherlands, Romania, Russia, Macedonia and Turkey used back-up jury vote
+2001 - Bosnia and Herzegovina, Russia and Turkey used back-up jury vote; Croatia, Malta and Greece used a 50/50 jury/televote system
+2002 - Russia, Bosnia and Herzegovina, Turkey and Romania used back-up jury vote; Cyprus, Greece, Croatia and Malta used a 50/50 jury/televote system
+2003 - Ireland, Bosnia and Herzegovina and Russia used back-up jury vote
+2004 - Turkey did not hear Slovenia's entry due to technical faults and therefore could not vote for it
+2005 - Monaco, Andorra and Moldova used back-up jury vote in the final.  (Andorra, Monaco and Albania used back-up jury vote in the semi-final)
+2006 - Monaco and Albania used back-up jury vote in the final.  (Andorra, Monaco and Albania used back-up jury vote in the semi-final)
+2007 - Albania and Andorra used back-up jury vote in the final.  (Albania and Andorra used back-up jury vote in the semi-final).  This was the first year that Serbia and Montenegro competed as separate entities
+2008 - Germany, Poland and United Kingdom all received a total of 14 points in the final however have been ranked in the provided data as 23rd, 24th and 25th respectively, as Germany received the most 12s, Poland the most 10s, and United Kingdom the fewest 2009 - Norway used back-up jury vote and Hungary used sms vote only in the final.  (Spain and Albania used back-up jury vote in the semi-final).
